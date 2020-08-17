@@ -1,3 +1,5 @@
+# To get to the github pages site: https://gnosder.github.io/Web-Design-Challenge/index
+
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
 ## Background

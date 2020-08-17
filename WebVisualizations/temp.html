@@ -22,7 +22,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id='navbarDropdown' role='button' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                    <a class="dropdown-item active" href="temp.html">Max Temperature<span class="sr-only">(current)</span></a>
                     <a class="dropdown-item" href="hum.html">Humidity</a>
                     <a class="dropdown-item" href="cloud.html">Cloudiness</a>
                     <a class="dropdown-item" href="wind.html">Wind Speed</a>
@@ -40,7 +40,38 @@
 </header>
 
 <body>
+    <div class="row content">
+        <div class="col-lg-6">
+            <!-- Main -->
+            <div>
+                <h1>Cities Latitude vs. Max Temperature</h1>
+                <hr>
+            </div>
+            <div>
+                <img src='assets/images/Fig1.png' alt='City Latitude vs Max Temperature'>
+            </div>
+            <div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
 
+        </div>
+        <div class="row col-lg-6">
+            <!-- Visualizations -->
+            <div class="col-md-6">
+                <a href='temp.html'><img src='assets/images/Fig1.png' alt='City Latitude vs Max Temperature'></a>
+            </div>
+            <div class="col-md-6">
+                <a href='hum.html'><img src='assets/images/Fig2.png' alt='City Latitude vs Humidity'></a>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-6">
+                <a href='cloud.html'><img src='assets/images/Fig3.png' alt='City Latitude vs Cloudiness'></a>
+            </div>
+            <div class="col-md-6">
+                <a href='wind.html'><img src='assets/images/Fig4.png' alt='City Latitude vs Wind Speed'></a>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
